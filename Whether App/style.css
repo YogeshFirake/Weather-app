@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.card {
+    max-width: 400px;
+    width: 90%;
+    height: 80vh;
+    background: linear-gradient(to left, #108cff, #c3c9aa);
+    color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.city {
+    font-size: larger;
+    font-family: cursive;
+}
+
+
+
+#tect {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    left: 10px;
+
+}
+
+button img {
+    width: 15px;
+    height: auto;
+    cursor: pointer;
+}
+
+label#ciName {
+    position: relative;
+    top: 5px;
+    left: -32px;
+    padding-right: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.weather-icon {
+    margin: 10px;
+    width: 150px;
+}
+
+.temperature {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: sienna;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    gap: 50px;
+}
+
+.col {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.col img {
+    width: 50px;
+
+}
+
+
